@@ -1,13 +1,13 @@
 from InquirerPy import prompt
 from components.celular import celular
-from components.ip_tack import ip_tack
+from components.ip_track import ip_track
 from components.ip import ip
 
 
 def main():
     opciones = {
         "Numero de celular": celular,
-        "Rastrear ip": ip_tack,
+        "Rastrear ip": ip_track,
         "Cual es mi ip": ip,
     }
     while True:
