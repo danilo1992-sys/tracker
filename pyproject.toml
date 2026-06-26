@@ -1,0 +1,11 @@
+[project]
+name = "tracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "inquirerpy>=0.3.4",
+    "ipwho-ip-geolocation-api>=1.0.3",
+    "phonenumbers>=9.0.33",
+]
