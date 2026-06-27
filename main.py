@@ -2,9 +2,11 @@ from InquirerPy import prompt
 from components.celular import celular
 from components.ip_track import ip_track
 from components.ip import ip
+from components.banner import banner
 
 
 def main():
+    banner()
     opciones = {
         "Numero de celular": celular,
         "Rastrear ip": ip_track,
